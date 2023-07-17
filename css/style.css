@@ -1,0 +1,84 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?size=626&ext=jpg&ga=GA1.1.1846500743.1689311159&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header > h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header > h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+.container {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 98%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 3px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.button-hasil {
+  width: 100%;
+  padding: 10px;
+  background-color: #4c51af;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button-reset {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.result {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.fungsi {
+  font-size: 23px;
+  text-align: justify;
+}
+
+.fungsi-2 {
+  font-size: 23px;
+  padding-left: 25px;
+}
